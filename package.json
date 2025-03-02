@@ -1,0 +1,18 @@
+{
+  "name": "customclainterfaces",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "dev": "tsc -w",
+    "compile": "tsc",
+    "tests": "node ./dist/tests/runTests.js" 
+  },
+  "keywords": [],
+  "author": "Kaibi",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}
